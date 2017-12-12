@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
 
@@ -9,12 +10,12 @@
   <modules>
     <module>dawg</module>
     <module>jmorphy2-core</module>
-    <module>jmorphy2-dicts-ru</module>
-    <module>jmorphy2-dicts-uk</module>
-    <module>jmorphy2-elasticsearch</module>
-    <module>jmorphy2-lucene</module>
-    <module>jmorphy2-nlp</module>
-    <module>jmorphy2-solr</module>
+    <!--<module>jmorphy2-dicts-ru</module>-->
+    <!--<module>jmorphy2-dicts-uk</module>-->
+    <!--<module>jmorphy2-elasticsearch</module>-->
+    <!--<module>jmorphy2-lucene</module>-->
+    <!--<module>jmorphy2-nlp</module>-->
+    <!--<module>jmorphy2-solr</module>-->
   </modules>
 
   <dependencies>
