@@ -70,7 +70,12 @@ public class Grammeme {
             return false;
         }
 
-        return value.equals(((Grammeme) obj).value);
+        return value.equals(((company.evo.jmorphy2.Grammeme) obj).value);
+    }
+
+    @Override
+    public int hashCode() {
+        return value != null ? value.hashCode() : 0;
     }
 
     @Override

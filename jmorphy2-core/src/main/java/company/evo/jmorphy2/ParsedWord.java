@@ -29,7 +29,7 @@ public abstract class ParsedWord implements Comparable {
     public abstract List<ParsedWord> getLexeme();
 
     public List<ParsedWord> inflect(Collection<Grammeme> requiredGrammemes) {
-        return inflect(requiredGrammemes, null);
+        return inflect(requiredGrammemes, new ArrayList<>());
     }
 
     public List<ParsedWord> inflect(Collection<Grammeme> requiredGrammemes,
