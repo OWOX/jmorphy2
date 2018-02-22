@@ -184,12 +184,7 @@ public class Tag {
             if (grammemeValue == null) {
                 return null;
             }
-            Grammeme grammeme = grammemes.get(grammemeValue);
-            if (grammeme != null) {
-                return grammeme;
-            }
-
-            return grammemes.get(grammemeValue.toLowerCase());
+            return grammemes.get(grammemeValue);
         }
 
         public Collection<Grammeme> getAllGrammemes() {

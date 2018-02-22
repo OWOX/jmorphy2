@@ -12,7 +12,7 @@
   <groupId>com.owox.jmorphy2</groupId>
   <artifactId>jmorphy2-core</artifactId>
   <name>Java port of pymorphy2</name>
-  <version>0.1.1</version>
+  <version>1.0.5</version>
 
  <dependencies>
     <dependency>

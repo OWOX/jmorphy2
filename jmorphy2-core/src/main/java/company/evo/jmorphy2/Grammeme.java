@@ -28,7 +28,7 @@ public class Grammeme {
                     String description,
                     Tag.Storage storage)
     {
-        this.key = value.toLowerCase();
+        this.key = value;
         this.value = value;
         this.parentValue = stringOrNull(parentValue);
         this.russianValue = russianValue;
